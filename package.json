@@ -1,0 +1,23 @@
+{
+  "name": "project5",
+  "version": "1.0.0",
+  "description": "--- #### _Three Stage Course Material Project - Restaurant Reviews_",
+  "main": "index.js",
+  "dependencies": {
+    "mapbox-gl": "^0.54.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milena537blr/udacity_project5.git"
+  },
+  "author": "milena537blr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milena537blr/udacity_project5/issues"
+  },
+  "homepage": "https://github.com/milena537blr/udacity_project5#readme"
+}
