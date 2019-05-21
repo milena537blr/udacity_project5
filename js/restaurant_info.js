@@ -1,10 +1,20 @@
 let restaurant;
 var newMap;
 
+registerServiceWorker = () => {
+  if (!navigator.serviceWorker) return;
+  navigator.serviceWorker.register("../service-workers.js").then(function(registration){
+    console.log('done', registration);
+  }).catch(function(err){
+    console.log(`fail ${err}`);
+  });
+};
+
 /**
  * Initialize map as soon as the page is loaded.
  */
-document.addEventListener('DOMContentLoaded', (event) => {  
+document.addEventListener('DOMContentLoaded', (event) => {
+  registerServiceWorker();
   initMap();
 });
 
